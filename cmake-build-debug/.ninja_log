@@ -1,0 +1,19 @@
+# ninja log v5
+40	118	7161041794343500	CMakeFiles/TimeMachine.dir/Nodo.cpp.obj	85859aa476c6e2ae
+31	128	7161041794448603	CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj	acec4f23e45fc52e
+0	579	7161041798953447	CMakeFiles/TimeMachine.dir/main.cpp.obj	fd869691a60adfbc
+581	685	7161041799970687	TimeMachine.exe	b03f4359682b38fd
+4	128	7161042561193213	CMakeFiles/TimeMachine.dir/Nodo.cpp.obj	85859aa476c6e2ae
+129	255	7161042562410172	TimeMachine.exe	b03f4359682b38fd
+3	79	7161043720414536	CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj	acec4f23e45fc52e
+80	191	7161043721485364	TimeMachine.exe	b03f4359682b38fd
+3	524	7161045126286357	CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj	acec4f23e45fc52e
+525	622	7161045127224170	TimeMachine.exe	b03f4359682b38fd
+4	66	7161046652669939	CMakeFiles/TimeMachine.dir/Nodo.cpp.obj	85859aa476c6e2ae
+67	160	7161046653564618	TimeMachine.exe	b03f4359682b38fd
+4	607	7161048172369287	CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj	acec4f23e45fc52e
+607	703	7161048173293424	TimeMachine.exe	b03f4359682b38fd
+5	597	7161048957271719	CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj	acec4f23e45fc52e
+598	697	7161048958203612	TimeMachine.exe	b03f4359682b38fd
+4	567	7161050005003032	CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj	acec4f23e45fc52e
+567	671	7161050006018378	TimeMachine.exe	b03f4359682b38fd
