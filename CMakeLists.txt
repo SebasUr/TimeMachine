@@ -7,4 +7,6 @@ add_executable(TimeMachine main.cpp
         Nodo.cpp
         Nodo.h
         Doublelist.cpp
-        Doublelist.h)
+        Doublelist.h
+        primeNums.h
+        primeNums.cpp)

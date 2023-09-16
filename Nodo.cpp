@@ -31,3 +31,16 @@ Nodo::Nodo(Nodo* pastLink, int d, int scien, Nodo* Link) {
     this->Link = Link;
     this->scien = scien;
 }
+
+std::string Nodo::getScien() const {
+    if (scien == 1){
+        return "Einstein";
+    }
+    else{
+        return "Rosen";
+    }
+}
+
+void Nodo::setScien(int scien) {
+    Nodo::scien = scien;
+}
