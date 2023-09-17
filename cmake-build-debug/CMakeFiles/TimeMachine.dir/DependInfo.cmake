@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ASUS/CLionProjects/TimeMachine/Doublelist.cpp" "CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj.d"
-  "C:/Users/ASUS/CLionProjects/TimeMachine/Nodo.cpp" "CMakeFiles/TimeMachine.dir/Nodo.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/Nodo.cpp.obj.d"
-  "C:/Users/ASUS/CLionProjects/TimeMachine/main.cpp" "CMakeFiles/TimeMachine.dir/main.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/main.cpp.obj.d"
-  "C:/Users/ASUS/CLionProjects/TimeMachine/primeNums.cpp" "CMakeFiles/TimeMachine.dir/primeNums.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/primeNums.cpp.obj.d"
+  "C:/Users/Sebastian/CLionProjects/TimeMachineR/Doublelist.cpp" "CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj.d"
+  "C:/Users/Sebastian/CLionProjects/TimeMachineR/Nodo.cpp" "CMakeFiles/TimeMachine.dir/Nodo.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/Nodo.cpp.obj.d"
+  "C:/Users/Sebastian/CLionProjects/TimeMachineR/main.cpp" "CMakeFiles/TimeMachine.dir/main.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/main.cpp.obj.d"
+  "C:/Users/Sebastian/CLionProjects/TimeMachineR/primeNums.cpp" "CMakeFiles/TimeMachine.dir/primeNums.cpp.obj" "gcc" "CMakeFiles/TimeMachine.dir/primeNums.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

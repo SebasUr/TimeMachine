@@ -56,7 +56,7 @@ Nodo *Doublelist::searchEventA(Nodo* first) {
     if(n!= nullptr || n->getLink() != 0){
         while (n!=nullptr || n->getLink()!= nullptr){
             if((n->getScien()=="Einstein") && (primeNums::isPrime(n->getDato()))){
-                cout << "Se ha encontrado un evento A "<< n->getDato() << endl;
+                cout << "EVENT A has occurred, Einstein has started his research..."<< endl << "   |" <<n->getDato() << "|" << n->getScien() << endl;
                 return n;
             }
             if(n->getLink()!=nullptr){
@@ -75,7 +75,7 @@ Nodo *Doublelist::searchEventB(Nodo *eventA) {
     Nodo*n = eventA->getLink();
     while (n!=nullptr){
         if(primeNums::isPrime(n->getDato())){
-            cout << "Se ha encontrado un evento B "<< n->getDato() << endl;
+            cout << "EVENT B has occurred, " << n->getScien() << " has made a great discovery by watching the event A!" << endl << "   |" <<eventA->getDato() << "|" << eventA->getScien() << "<-" << "|" <<n->getDato() << "|" << n->getScien() << endl;
             return n;
         }
         n= n->getLink();
@@ -88,10 +88,14 @@ Nodo* Doublelist::searchEventC(Nodo *eventB, Nodo* eventA) {
     while (n!=nullptr){
         if(primeNums::isCoprime(n->getDato(),eventA->getDato())){
             if(primeNums::isPrime(n->getDato())){
-                cout << "Se ha encontrado un evento C con y ha habido un intercambio de datos "<< n->getDato() << endl;
+                cout << "EVENT C has occurred and a temporal singularity has occurred too!!! " << endl;
+                cout << "   |" <<eventA->getDato() << "|" << eventA->getScien() << "<-" << "|" <<eventB->getDato() << "|" << eventB->getScien() << "<-" << "|" <<n->getDato() << "|" << n->getScien() << endl;
+                cout << "       @@@@@ " << n->getScien() << " has traveled back in time and has shared information with Einsten."<< "@@@@@"<< endl;
+                cout << "       @@@@@ " << "|" << eventA->getDato() << "|" << eventA->getScien() << "<-" << "|" <<n->getDato() << "|" << n->getScien() << " @@@@@"<< endl;
                 return n;
             } else {
-                cout << "Se ha encontrado un evento C, no hay intercambio de datos "<< n->getDato() << endl;
+                cout << "EVENT C has occurred " << n->getScien() << " has travelled to see the past" << endl;
+                cout << "   |" <<eventA->getDato() << "|" << eventA->getScien() << "<-" << "|" <<eventB->getDato() << "|" << eventB->getScien() << "<-" << "|" <<n->getDato() << "|" << n->getScien() << endl;
                 return n;
             }
         }

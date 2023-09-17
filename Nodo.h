@@ -5,6 +5,8 @@
 #ifndef TIMEMACHINE_NODO_H
 #define TIMEMACHINE_NODO_H
 #include <string>
+#include <format>
+using namespace std;
 
 
 class Nodo {
@@ -24,7 +26,6 @@ public:
     void setLink(Nodo *link);
 
     std::string getScien() const;
-
     void setScien(int scien);
 };
 

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\ASUS\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\ASUS\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ASUS\CLionProjects\TimeMachine
+CMAKE_SOURCE_DIR = C:\Users\Sebastian\CLionProjects\TimeMachineR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TimeMachine.dir/depend.make
@@ -69,60 +69,60 @@ include CMakeFiles/TimeMachine.dir/progress.make
 include CMakeFiles/TimeMachine.dir/flags.make
 
 CMakeFiles/TimeMachine.dir/main.cpp.obj: CMakeFiles/TimeMachine.dir/flags.make
-CMakeFiles/TimeMachine.dir/main.cpp.obj: C:/Users/ASUS/CLionProjects/TimeMachine/main.cpp
+CMakeFiles/TimeMachine.dir/main.cpp.obj: C:/Users/Sebastian/CLionProjects/TimeMachineR/main.cpp
 CMakeFiles/TimeMachine.dir/main.cpp.obj: CMakeFiles/TimeMachine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TimeMachine.dir/main.cpp.obj"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/main.cpp.obj -MF CMakeFiles\TimeMachine.dir\main.cpp.obj.d -o CMakeFiles\TimeMachine.dir\main.cpp.obj -c C:\Users\ASUS\CLionProjects\TimeMachine\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TimeMachine.dir/main.cpp.obj"
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/main.cpp.obj -MF CMakeFiles\TimeMachine.dir\main.cpp.obj.d -o CMakeFiles\TimeMachine.dir\main.cpp.obj -c C:\Users\Sebastian\CLionProjects\TimeMachineR\main.cpp
 
 CMakeFiles/TimeMachine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeMachine.dir/main.cpp.i"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\TimeMachine\main.cpp > CMakeFiles\TimeMachine.dir\main.cpp.i
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sebastian\CLionProjects\TimeMachineR\main.cpp > CMakeFiles\TimeMachine.dir\main.cpp.i
 
 CMakeFiles/TimeMachine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeMachine.dir/main.cpp.s"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\TimeMachine\main.cpp -o CMakeFiles\TimeMachine.dir\main.cpp.s
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sebastian\CLionProjects\TimeMachineR\main.cpp -o CMakeFiles\TimeMachine.dir\main.cpp.s
 
 CMakeFiles/TimeMachine.dir/Nodo.cpp.obj: CMakeFiles/TimeMachine.dir/flags.make
-CMakeFiles/TimeMachine.dir/Nodo.cpp.obj: C:/Users/ASUS/CLionProjects/TimeMachine/Nodo.cpp
+CMakeFiles/TimeMachine.dir/Nodo.cpp.obj: C:/Users/Sebastian/CLionProjects/TimeMachineR/Nodo.cpp
 CMakeFiles/TimeMachine.dir/Nodo.cpp.obj: CMakeFiles/TimeMachine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimeMachine.dir/Nodo.cpp.obj"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/Nodo.cpp.obj -MF CMakeFiles\TimeMachine.dir\Nodo.cpp.obj.d -o CMakeFiles\TimeMachine.dir\Nodo.cpp.obj -c C:\Users\ASUS\CLionProjects\TimeMachine\Nodo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimeMachine.dir/Nodo.cpp.obj"
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/Nodo.cpp.obj -MF CMakeFiles\TimeMachine.dir\Nodo.cpp.obj.d -o CMakeFiles\TimeMachine.dir\Nodo.cpp.obj -c C:\Users\Sebastian\CLionProjects\TimeMachineR\Nodo.cpp
 
 CMakeFiles/TimeMachine.dir/Nodo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeMachine.dir/Nodo.cpp.i"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\TimeMachine\Nodo.cpp > CMakeFiles\TimeMachine.dir\Nodo.cpp.i
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sebastian\CLionProjects\TimeMachineR\Nodo.cpp > CMakeFiles\TimeMachine.dir\Nodo.cpp.i
 
 CMakeFiles/TimeMachine.dir/Nodo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeMachine.dir/Nodo.cpp.s"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\TimeMachine\Nodo.cpp -o CMakeFiles\TimeMachine.dir\Nodo.cpp.s
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sebastian\CLionProjects\TimeMachineR\Nodo.cpp -o CMakeFiles\TimeMachine.dir\Nodo.cpp.s
 
 CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj: CMakeFiles/TimeMachine.dir/flags.make
-CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj: C:/Users/ASUS/CLionProjects/TimeMachine/Doublelist.cpp
+CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj: C:/Users/Sebastian/CLionProjects/TimeMachineR/Doublelist.cpp
 CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj: CMakeFiles/TimeMachine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj -MF CMakeFiles\TimeMachine.dir\Doublelist.cpp.obj.d -o CMakeFiles\TimeMachine.dir\Doublelist.cpp.obj -c C:\Users\ASUS\CLionProjects\TimeMachine\Doublelist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj"
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/Doublelist.cpp.obj -MF CMakeFiles\TimeMachine.dir\Doublelist.cpp.obj.d -o CMakeFiles\TimeMachine.dir\Doublelist.cpp.obj -c C:\Users\Sebastian\CLionProjects\TimeMachineR\Doublelist.cpp
 
 CMakeFiles/TimeMachine.dir/Doublelist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeMachine.dir/Doublelist.cpp.i"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\TimeMachine\Doublelist.cpp > CMakeFiles\TimeMachine.dir\Doublelist.cpp.i
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sebastian\CLionProjects\TimeMachineR\Doublelist.cpp > CMakeFiles\TimeMachine.dir\Doublelist.cpp.i
 
 CMakeFiles/TimeMachine.dir/Doublelist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeMachine.dir/Doublelist.cpp.s"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\TimeMachine\Doublelist.cpp -o CMakeFiles\TimeMachine.dir\Doublelist.cpp.s
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sebastian\CLionProjects\TimeMachineR\Doublelist.cpp -o CMakeFiles\TimeMachine.dir\Doublelist.cpp.s
 
 CMakeFiles/TimeMachine.dir/primeNums.cpp.obj: CMakeFiles/TimeMachine.dir/flags.make
-CMakeFiles/TimeMachine.dir/primeNums.cpp.obj: C:/Users/ASUS/CLionProjects/TimeMachine/primeNums.cpp
+CMakeFiles/TimeMachine.dir/primeNums.cpp.obj: C:/Users/Sebastian/CLionProjects/TimeMachineR/primeNums.cpp
 CMakeFiles/TimeMachine.dir/primeNums.cpp.obj: CMakeFiles/TimeMachine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TimeMachine.dir/primeNums.cpp.obj"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/primeNums.cpp.obj -MF CMakeFiles\TimeMachine.dir\primeNums.cpp.obj.d -o CMakeFiles\TimeMachine.dir\primeNums.cpp.obj -c C:\Users\ASUS\CLionProjects\TimeMachine\primeNums.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TimeMachine.dir/primeNums.cpp.obj"
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeMachine.dir/primeNums.cpp.obj -MF CMakeFiles\TimeMachine.dir\primeNums.cpp.obj.d -o CMakeFiles\TimeMachine.dir\primeNums.cpp.obj -c C:\Users\Sebastian\CLionProjects\TimeMachineR\primeNums.cpp
 
 CMakeFiles/TimeMachine.dir/primeNums.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeMachine.dir/primeNums.cpp.i"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\TimeMachine\primeNums.cpp > CMakeFiles\TimeMachine.dir\primeNums.cpp.i
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sebastian\CLionProjects\TimeMachineR\primeNums.cpp > CMakeFiles\TimeMachine.dir\primeNums.cpp.i
 
 CMakeFiles/TimeMachine.dir/primeNums.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeMachine.dir/primeNums.cpp.s"
-	C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\TimeMachine\primeNums.cpp -o CMakeFiles\TimeMachine.dir\primeNums.cpp.s
+	C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sebastian\CLionProjects\TimeMachineR\primeNums.cpp -o CMakeFiles\TimeMachine.dir\primeNums.cpp.s
 
 # Object files for target TimeMachine
 TimeMachine_OBJECTS = \
@@ -142,7 +142,7 @@ TimeMachine.exe: CMakeFiles/TimeMachine.dir/build.make
 TimeMachine.exe: CMakeFiles/TimeMachine.dir/linkLibs.rsp
 TimeMachine.exe: CMakeFiles/TimeMachine.dir/objects1.rsp
 TimeMachine.exe: CMakeFiles/TimeMachine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TimeMachine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TimeMachine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TimeMachine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/TimeMachine.dir/clean:
 .PHONY : CMakeFiles/TimeMachine.dir/clean
 
 CMakeFiles/TimeMachine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\CLionProjects\TimeMachine C:\Users\ASUS\CLionProjects\TimeMachine C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles\TimeMachine.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Sebastian\CLionProjects\TimeMachineR C:\Users\Sebastian\CLionProjects\TimeMachineR C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles\TimeMachine.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TimeMachine.dir/depend
 

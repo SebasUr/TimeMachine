@@ -2,7 +2,9 @@
 // Created by Sebastian on 10/09/2023.
 //
 
+#include <iostream>
 #include "Nodo.h"
+using namespace std;
 
 int Nodo::getDato() const {
     return dato;

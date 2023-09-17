@@ -7,6 +7,7 @@
 using namespace std;
 
 int main() {
+    cout << "### HISTORY HAS STARTED TO BE GENERATED, THE TIMELINE HAS BEGUN ###" << endl << endl;
     Doublelist* lista = new Doublelist();
     srand(time(nullptr));
 
@@ -17,15 +18,20 @@ int main() {
         int randScien = 1 + rand() % 2;
         lista->eventInsert(rand100,randScien);
     }
-    lista->printEvents();
 
     Nodo* mainVal = lista->getFirst();
+    int i = 0;
     while(mainVal != nullptr){
+
         if (mainVal->getLink()== nullptr){
             break;
         }
+        if (i>0){
+            cout << "History is a loop... Searching for other events..." << endl << endl;
+        }
         Nodo* valid = lista->searchEventA(mainVal);
         if(valid==NULL){
+            cout <<"No memorable event has occurred..."<< endl << endl;
             break;
         }
         if(valid->getLink() != nullptr){
@@ -33,13 +39,21 @@ int main() {
             if(validB!= nullptr){
                 Nodo* evenCVal = lista->searchEventC(validB,valid);
                 mainVal = evenCVal;
+                i++;
+                cout << endl;
+
             } else {
+                cout <<"No other memorable event has occurred..."<< endl << endl;
                 break;
             }
         } else{
             break;
         }
+
     }
-    cout << "get out"   << endl;
+
+    cout << "There have been a total of " << lista->getEventCounter() << " events" << endl;
+    lista ->printEvents();
+    cout << "Finished."   << endl;
     return 0;
 }

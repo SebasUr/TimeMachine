@@ -1,3 +1,3 @@
-C:\Users\ASUS\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\TimeMachine.dir/objects.a
-C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\TimeMachine.dir/objects.a @CMakeFiles\TimeMachine.dir\objects1.rsp
-C:\Users\ASUS\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TimeMachine.dir/objects.a -Wl,--no-whole-archive -o TimeMachine.exe -Wl,--out-implib,libTimeMachine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TimeMachine.dir\linkLibs.rsp
+C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\TimeMachine.dir/objects.a
+C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\TimeMachine.dir/objects.a @CMakeFiles\TimeMachine.dir\objects1.rsp
+C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TimeMachine.dir/objects.a -Wl,--no-whole-archive -o TimeMachine.exe -Wl,--out-implib,libTimeMachine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TimeMachine.dir\linkLibs.rsp

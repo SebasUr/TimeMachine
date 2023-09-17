@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\ASUS\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\ASUS\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Sebastian\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ASUS\CLionProjects\TimeMachine
+CMAKE_SOURCE_DIR = C:\Users\Sebastian\CLionProjects\TimeMachineR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/TimeMachine.dir/clean
 CMakeFiles/TimeMachine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeMachine.dir\build.make CMakeFiles/TimeMachine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeMachine.dir\build.make CMakeFiles/TimeMachine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target TimeMachine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target TimeMachine"
 .PHONY : CMakeFiles/TimeMachine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TimeMachine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TimeMachine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\TimeMachine\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sebastian\CLionProjects\TimeMachineR\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/TimeMachine.dir/rule
 
 # Convenience name for target.

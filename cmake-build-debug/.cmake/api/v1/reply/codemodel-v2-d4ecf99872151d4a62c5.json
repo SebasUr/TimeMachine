@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ASUS/CLionProjects/TimeMachine/cmake-build-debug",
-		"source" : "C:/Users/ASUS/CLionProjects/TimeMachine"
+		"build" : "C:/Users/Sebastian/CLionProjects/TimeMachineR/cmake-build-debug",
+		"source" : "C:/Users/Sebastian/CLionProjects/TimeMachineR"
 	},
 	"version" : 
 	{

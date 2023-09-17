@@ -1,3 +1,3 @@
-C:/Users/ASUS/CLionProjects/TimeMachine/cmake-build-debug/CMakeFiles/TimeMachine.dir
-C:/Users/ASUS/CLionProjects/TimeMachine/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ASUS/CLionProjects/TimeMachine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Sebastian/CLionProjects/TimeMachineR/cmake-build-debug/CMakeFiles/TimeMachine.dir
+C:/Users/Sebastian/CLionProjects/TimeMachineR/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sebastian/CLionProjects/TimeMachineR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
